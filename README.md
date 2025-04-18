@@ -92,19 +92,19 @@ The feature importance plot reveals which features contribute the most to predic
 
 ### 1. Churn Distribution
 
-![Churn Distribution](images/churn_distribution.png)
+![Churn Distribution](Screenshot 2025-04-18 151054.png)
 
 ### 2. Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](Screenshot 2025-04-18 151201.png)
 
 ### 3. Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](Screenshot 2025-04-18 151230.png)
 
 ### 4. Feature Importance
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](Screenshot 2025-04-18 151249.png)
 
 ## Usage
 
