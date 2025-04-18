@@ -1,3 +1,4 @@
+
 # Customer Churn Classifier
 
 ## Problem Statement
@@ -94,4 +95,10 @@ The feature importance plot reveals which features contribute the most to predic
 
 1. Install the required libraries:
    ```bash
+   ![Screenshot 2025-04-18 151054](https://github.com/user-attachments/assets/853b6c65-ea71-4099-bd40-d351dcd5e6de)
+![Screenshot 2025-04-18 151054](https://github.com/user-attachments/assets/853b6c65-ea71-4099-bd40-d351dcd5e6de)
+![Screenshot 2025-04-18 151127](https://github.com/user-attachments/assets/ab7e426c-37b0-4153-9e2a-a2f5a951fa25)
+![Screenshot 2025-04-18 151201](https://github.com/user-attachments/assets/0254fdb3-34c9-4e28-9eec-530be3d7476d)
+![Screenshot 2025-04-18 151230](https://github.com/user-attachments/assets/403c317f-8299-4dcc-a2c3-7b6cc989fabb)
+![Screenshot 2025-04-18 151249](https://github.com/user-attachments/assets/d2aea82a-e1cb-4bff-8f4c-5f1d4bcd8eb3)
    pip install pandas numpy seaborn matplotlib scikit-learn
