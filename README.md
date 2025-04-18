@@ -1,6 +1,12 @@
 # Customer Churn Classifier
 
-This project predicts customer churn using a **Random Forest Classifier** based on customer data. The model predicts whether a customer will leave a service (churn) or stay, based on several features.
+## Problem Statement
+
+Customer churn is a critical issue for many businesses, especially in subscription-based services like telecommunications, streaming platforms, and online services. **Churn** refers to customers who stop using a service over a period of time. High churn rates can significantly impact a business's profitability and growth. 
+
+The goal of this project is to **predict customer churn** using machine learning techniques. By identifying customers who are likely to churn, businesses can take preventive measures such as targeted offers, customer retention strategies, or personalized services to retain those customers.
+
+The dataset provided contains various customer-related features and whether the customer has churned or not. The task is to build a predictive model that can accurately forecast customer churn based on these features.
 
 ## Libraries Used
 
@@ -49,6 +55,38 @@ The dataset contains customer information and whether they churned (left the ser
    - Evaluated the model using accuracy, precision, and recall.
    - Displayed a confusion matrix to visualize model performance.
    - Plotted feature importance to understand which features are most important in predicting churn.
+
+## Results
+
+After training the **Random Forest Classifier** and evaluating its performance, the following results were obtained:
+
+- **Accuracy**: `XX.XX%` (The percentage of correctly predicted instances out of all predictions).
+- **Precision**: `YY.YY%` (The percentage of positive predictions that were actually positive).
+- **Recall**: `ZZ.ZZ%` (The percentage of actual positive cases correctly identified by the model).
+
+### Confusion Matrix
+
+The confusion matrix for the model is as follows:
+
+|               | Predicted: No Churn | Predicted: Churn |
+|---------------|---------------------|------------------|
+| **Actual: No Churn** |  **TN**           | **FP**          |
+| **Actual: Churn**    |  **FN**           | **TP**          |
+
+Where:
+- **TP** = True Positive
+- **TN** = True Negative
+- **FP** = False Positive
+- **FN** = False Negative
+
+### Feature Importance
+
+The feature importance plot reveals which features contribute the most to predicting churn. Based on the trained model, the top features influencing churn prediction are:
+
+1. **MonthlyCharges**
+2. **Tenure**
+3. **TotalCharges**
+4. **InternetService**
 
 ## Usage
 
