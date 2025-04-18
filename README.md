@@ -79,6 +79,8 @@ Where:
 - **FP** = False Positive
 - **FN** = False Negative
 
+The confusion matrix is a key metric for understanding how well the model is classifying both churned and non-churned customers.
+
 ### Feature Importance
 
 The feature importance plot reveals which features contribute the most to predicting churn. Based on the trained model, the top features influencing churn prediction are:
@@ -87,24 +89,6 @@ The feature importance plot reveals which features contribute the most to predic
 2. **Tenure**
 3. **TotalCharges**
 4. **InternetService**
-
-## Visualizations
-
-### 1. Churn Distribution
-
-![Churn Distribution](Screenshot 2025-04-18 151054.png)
-
-### 2. Correlation Heatmap
-
-![Correlation Heatmap](Screenshot 2025-04-18 151201.png)
-
-### 3. Confusion Matrix
-
-![Confusion Matrix](Screenshot 2025-04-18 151230.png)
-
-### 4. Feature Importance
-
-![Feature Importance](Screenshot 2025-04-18 151249.png)
 
 ## Usage
 
