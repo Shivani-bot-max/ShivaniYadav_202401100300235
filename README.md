@@ -88,6 +88,24 @@ The feature importance plot reveals which features contribute the most to predic
 3. **TotalCharges**
 4. **InternetService**
 
+## Visualizations
+
+### 1. Churn Distribution
+
+![Churn Distribution](images/churn_distribution.png)
+
+### 2. Correlation Heatmap
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+### 3. Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+### 4. Feature Importance
+
+![Feature Importance](images/feature_importance.png)
+
 ## Usage
 
 1. Install the required libraries:
